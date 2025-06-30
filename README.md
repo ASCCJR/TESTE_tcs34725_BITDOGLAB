@@ -49,7 +49,7 @@ const uint I2C_SCL_PIN = 1;
 ```
 
 ## Visualizar a Saída
-* Conecte o sensor TCS34725 na porta I2C configurada no Passo 2.
+* Conecte o sensor TCS34725 na porta I2C configurada.
 * Abra um monitor serial conectado à porta COM do seu Pico.
 * Você verá a seguinte saída, atualizada a cada meio segundo:
 ```bash
