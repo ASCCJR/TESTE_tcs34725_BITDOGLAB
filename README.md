@@ -4,7 +4,7 @@
 ![Plataforma](https://img.shields.io/badge/Plataforma-Raspberry%20Pi%20Pico-purple.svg)
 ![Sensor](https://img.shields.io/badge/Sensor-TCS34725-lightgrey.svg)
 
-Este repositório contém um código de teste para o sensor de cor I2C TCS34725, desenvolvido em C para o Raspberry Pi Pico W (BITDOGLAB)
+Este repositório contém um código teste para o sensor de cor I2C TCS34725, desenvolvido em C para o Raspberry Pi Pico W (BITDOGLAB)
 
 O projeto demonstra a implementação de um driver que lida com o protocolo de comunicação específico do sensor (usando um bit de comando) e realiza uma inicialização segura, verificando a identidade do chip antes de prosseguir. A arquitetura modular separa o driver da aplicação, facilitando sua reutilização em projetos maiores.
 
