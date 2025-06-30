@@ -49,14 +49,16 @@ const uint I2C_SCL_PIN = 1;
 ```
 
 ## Visualizar a Saída
-* Conecte o sensor AHT10 na porta I2C configurada
+* Conecte o sensor TCS34725 na porta I2C configurada no Passo 2.
 * Abra um monitor serial conectado à porta COM do seu Pico.
-* Você verá a seguinte saída, atualizada a cada 2 segundos:
+* Você verá a seguinte saída, atualizada a cada meio segundo:
 ```bash
---- Iniciando Sensor de Umidade e Temperatura AHT10 ---
-Sensor inicializado. Coletando dados...
-Temperatura: 27.50 C  |  Umidade Relativa: 62.34 %
-Temperatura: 27.51 C  |  Umidade Relativa: 62.38 %
+--- Iniciando Sensor de Cor TCS34725 ---
+Usando a porta I2C com SDA no pino 2 e SCL no pino 3
+Sensor inicializado. Coletando dados de cor...
+Clear:   150, Red:    45, Green:    60, Blue:    45
+Clear:  1850, Red:   800, Green:   650, Blue:   400
+...
 ```
 
 ## 📂 Estrutura dos Arquivos
