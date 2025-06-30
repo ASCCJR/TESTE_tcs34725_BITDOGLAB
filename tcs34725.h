@@ -1,3 +1,11 @@
+/**
+ * @file tcs34725.h
+ * @brief Define a interface pública (API) para o driver do sensor de cor TCS34725.
+ *
+ * Este arquivo de cabeçalho declara as estruturas de dados e as funções
+ * que podem ser chamadas por outras partes do sistema para interagir com o sensor.
+ */
+
 #ifndef TCS34725_H
 #define TCS34725_H
 
