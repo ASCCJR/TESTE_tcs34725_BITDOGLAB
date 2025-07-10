@@ -69,4 +69,4 @@ Clear:  1850, Red:   800, Green:   650, Blue:   400
 
 ✍️ Autor
 
-[ASSCJR]
+ANTONIO SERGIO CASTRO DE CARVALHO JUNIOR
