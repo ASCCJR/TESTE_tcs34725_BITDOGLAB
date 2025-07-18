@@ -62,7 +62,7 @@ Clear:  1850, Red:   800, Green:   650, Blue:   400
 ```
 
 ## 📂 Estrutura dos Arquivos
-* main.c: A aplicação principal. Orquestra a inicialização do hardware e do sensor, e realiza as leituras em loop.
+* main.c: A aplicação principal. Faz a inicialização do hardware e do sensor, e realiza as leituras em loop.
 * tcs34725.c: A implementação do driver do sensor, contendo a lógica de comunicação I2C específica do chip.
 * tcs34725.h: O arquivo de cabeçalho (a interface ou API) para o driver do TCS34725.
 * CMakeLists.txt: O arquivo de build do projeto.
