@@ -6,6 +6,10 @@
  * do bit de comando para acesso aos registradores específicos do sensor.
  */
 
+/**
+ * https://github.com/ASCCJR
+ */
+
 #include "tcs34725.h"
 
 // --- Registradores Internos e Comandos ---
