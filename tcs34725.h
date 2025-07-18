@@ -6,6 +6,10 @@
  * que podem ser chamadas por outras partes do sistema para interagir com o sensor.
  */
 
+/**
+ * https://github.com/ASCCJR
+ */
+
 #ifndef TCS34725_H
 #define TCS34725_H
 
